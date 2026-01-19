@@ -1,0 +1,118 @@
+/* General Setup */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #333;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase; /* Requirement */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffd700; /* Requirement: Hover effect */
+}
+
+/* Hero Banner */
+.hero-banner {
+    /* Requirement: Background Image */
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(monk.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.banner-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase; /* Requirement */
+    letter-spacing: 2px;
+}
+
+/* Project Showcase Grid */
+.showcase {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.showcase h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Project Cards */
+.project-card {
+    background: white;
+    padding: 20px; /* Requirement: Padding */
+    border-radius: 10px; /* Requirement: Border Radius */
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Requirement: Box Shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-left: 5px solid #333;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+    background-color: #fffdf0;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.project-card p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #888;
+    margin-top: 50px;
+}
