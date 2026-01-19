@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.demo-wrapper {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 500px;
+}
+
+/* THE BOX MODEL DEMO */
+.box-model-example {
+    /* 1. Content: The text inside */
+    background-color: #e8f5e9; /* Light Green background for content+padding area */
+    color: #333;
+    
+    /* 2. Padding: Space between content and border */
+    padding: 50px; /* Requirement: Apply padding */
+    
+    /* 3. Border: The line around the padding */
+    border: 10px solid #2980b9; /* Requirement: Distinct color/thickness */
+    
+    /* 4. Margin: Space outside the border */
+    margin: 50px; /* Requirement: Separate from other elements */
+}
+
+/* Styling specifically for the text inside to make it look nice */
+.box-model-example h3 {
+    margin-top: 0;
+    color: #27ae60;
+    text-transform: uppercase;
+}
