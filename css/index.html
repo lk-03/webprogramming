@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Priority Demo</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        h2 {
+            color: green; /* Overrides the external 'blue' */
+        }
+        
+        .class-selector {
+            border: 2px solid orange;
+        }
+
+        #id-selector {
+            border: 2px solid purple; /* ID beats Class */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>CSS Specificity & Cascade</h1>
+
+        <p>1. This paragraph uses only External CSS. It should be <strong>Blue</strong>.</p>
+
+        <h2>2. Internal beats External. This title should be Green (not Blue).</h2>
+
+        <p style="color: red;">3. Inline beats Everything. This text should be <strong>Red</strong>.</p>
+
+        <hr>
+
+        <div class="class-selector" id="id-selector">
+            4. ID vs Class: This box has both. ID (Purple border) beats Class (Orange border).
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Base Rules intended to be overridden */
+h2 {
+    color: blue;
+}
+
+p {
+    color: blue;
+    font-size: 18px;
+}
+
+div {
+    padding: 20px;
+    margin-top: 20px;
+}
