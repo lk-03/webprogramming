@@ -23,7 +23,7 @@ p {
 .main-header {
     background-color: #000;
     color: white;
-    padding: 50px 20px;
+    padding: 60px 20px;
     text-align: center;
     border-bottom: 2px solid #00d2ff;
 }
@@ -31,6 +31,7 @@ p {
 .main-header h1 {
     font-size: 3rem;
     color: #00d2ff;
+    margin-bottom: 10px;
 }
 
 .parallax {
@@ -73,7 +74,7 @@ footer {
     background-color: #000;
     color: #888;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 @media only screen and (max-device-width: 1024px) {
