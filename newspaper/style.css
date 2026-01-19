@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.headline-banner {
+    background-color: rgb(251, 186, 129);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.headline-banner h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.main-layout {
+    display: flex;
+    max-width: 1100px;
+    margin: 40px auto;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.news-section {
+    flex: 3;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+.section-title {
+    border-bottom: 3px solid #333;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.article-card {
+    position: relative;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    background: white;
+}
+
+.article-card img {
+    width: 100%;
+    display: block;
+    height: 300px;
+    object-fit: cover;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px;
+    z-index: 10;
+    max-width: 80%;
+}
+
+.overlay-text h3 {
+    margin: 0;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+.ad-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.ad-box h3 {
+    color: #b71c1c;
+    margin-top: 0;
+}
+
+.ad-box button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.ad-box button:hover {
+    background-color: #b71c1c;
+}
+
